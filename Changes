@@ -1,0 +1,69 @@
+0.025   2024-01-30  Released-By: PERLANCAR; Urgency: medium
+
+        - Return raw numbers in result metadata.
+
+
+0.024   2023-02-05  Released-By: PERLANCAR; Urgency: low
+
+        - No functional changes.
+
+        - [doc] Update mention to App-BPOMUtils (now separate distributions).
+
+
+0.023   2023-01-29  Released-By: PERLANCAR; Urgency: low
+
+        - No functional changes.
+
+        - Fix example for raw_linear.
+
+
+0.022   2023-01-29  Released-By: PERLANCAR; Urgency: medium
+
+        - Add output format 'raw_linear', which is just like linear_text
+          but without border.
+
+
+0.021   2023-01-29  Released-By: PERLANCAR; Urgency: medium
+
+        - Give border to linear_text output.
+
+
+0.020   2023-01-27  Released-By: PERLANCAR; Urgency: medium
+
+        - More CSS tweak.
+
+        - [format calculation_html, calculation_text] Use Unicode multiplication
+          sign instead of "x".
+
+
+0.019   2023-01-27  Released-By: PERLANCAR; Urgency: medium
+
+        - [bugfix] Fix CSS selector.
+
+
+0.018   2023-01-10  Released-By: PERLANCAR; Urgency: medium
+
+        - [bugfix] Fix duplicate JUMLAH PER KEMASAN output.
+
+        - [ux] Add example to show the result of calculation_text output format.
+
+
+0.017   2023-01-10  Released-By: PERLANCAR; Urgency: low
+
+        - No functional changes.
+
+        - Tweak Abstract.
+
+
+0.016   2023-01-10  Released-By: PERLANCAR; Urgency: medium
+
+        - Add output format: calculation_html, calculation_text.
+
+
+0.015   2022-12-20  Released-By: PERLANCAR; Urgency: medium
+
+        - First release, split from App-BPOMUtils because App-BPOMUtils is
+          having build problems currently.
+
+        - Fixes (missing "JUMLAH PER SAJIAN" text in linear form), missing
+          "JUMLAH PER KEMASAN (... g)" for per-package ING.
