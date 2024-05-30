@@ -80,12 +80,12 @@ $SPEC{bpom_get_nutrition_label_ref} = {
             summary => 'List all ALG values',
             argv => [qw//],
             test => 0,
+            'x.doc.max_result_lines' => 10,
         },
         {
             summary => 'List ALG for vitamin D, for all groups',
             argv => [qw/VD/],
             test => 0,
-            'x.doc.max_result_lines' => 10,
         },
         {
             summary => 'List ALG for vitamin D, for 1-3 years olds',
