@@ -2,6 +2,11 @@ package App::ALG;
 
 use strict;
 
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
+
 1;
 # ABSTRACT: Shorter alias for App::BPOMUtils::NutritionLabelRef
 
