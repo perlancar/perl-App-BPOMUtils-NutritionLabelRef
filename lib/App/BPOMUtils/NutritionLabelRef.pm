@@ -72,10 +72,11 @@ $SPEC{bpom_get_nutrition_label_ref} = {
             summary => 'List all nutrient (symbols)',
             argv => [qw/--list-nutrients/],
             test => 0,
+            'x.doc.max_result_lines' => 8,
         },
         {
             summary => 'List all groups (symbols)',
-            argv => [qw/--list-nutrients/],
+            argv => [qw/--list-groups/],
             test => 0,
         },
         {
